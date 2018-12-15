@@ -27,6 +27,9 @@ workflows:
   build:
     jobs:
       - test
+          filters:
+            tags:
+              only: /.*/
       - publish:
           context: nuget-publish
           requires:
