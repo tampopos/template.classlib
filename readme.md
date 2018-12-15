@@ -1,4 +1,4 @@
-# tmpps.infrastructure.common
+# tmpps.infrastructure.template
 
 ## command
 
