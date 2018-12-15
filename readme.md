@@ -32,6 +32,6 @@ dotnet nuget push ./Tmpps.Infrastructure.Template/bin/Release/Tmpps.Infrastructu
 #### release
 
 ```bash
-git tag X.Y.Z ${branch}
+git tag X.Y.Z
 git push origin --tags
 ```
