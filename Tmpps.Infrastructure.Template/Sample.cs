@@ -4,7 +4,7 @@ namespace Tmpps.Infrastructure.Template
     {
         public string GetHello(string name = "world")
         {
-            return $"Hello {name}.";
+            return $"Hello {name}2.";
         }
     }
 }

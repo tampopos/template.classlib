@@ -13,8 +13,8 @@ namespace Tests
             Assert.AreEqual(expected, actual);
         }
         static object[] GetHelloTestParameters = {
-            new object[] { null, "Hello world." },
-            new object[] { "tmpps", "Hello tmpps." },
+            new object[] { null, "Hello world2." },
+            new object[] { "tmpps", "Hello tmpps2." },
         };
     }
 }
