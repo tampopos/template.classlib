@@ -21,6 +21,10 @@ dotnet nuget push ./Tmpps.Infrastructure.Template/bin/Release/Tmpps.Infrastructu
 
 ## use circleCI CLI
 
+#### validation config
+
+`circleci config validate`
+
 #### test
 
 `circleci local execute --job test`
