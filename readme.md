@@ -28,3 +28,10 @@ dotnet nuget push ./Tmpps.Infrastructure.Template/bin/Release/Tmpps.Infrastructu
 #### test
 
 `circleci local execute --job test`
+
+#### release
+
+```bash
+git tag X.Y.Z ${branch}
+git push origin --tags
+```

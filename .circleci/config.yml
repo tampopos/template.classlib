@@ -1,16 +1,18 @@
-version: 2
-jobs:
-  test:
+version: 2.1
+executors:
+  dotnet:
     docker:
       - image: microsoft/dotnet:latest
+jobs:
+  test:
+    executor: dotnet
     steps:
       - checkout
       - run:
           name: test
           command: dotnet test Tmpps.Infrastructure.Template.Tests
   publish:
-    docker:
-      - image: microsoft/dotnet:latest
+    executor: dotnet
     steps:
       - checkout
       - run:
