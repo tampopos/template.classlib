@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Tmpps.Infrastructure.Template</PackageId>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>tampopos</Authors>
+    <Company>tampopos</Company>
   </PropertyGroup>
 </Project>
